@@ -10,10 +10,16 @@
   "plugins": {
     "reg-keygen-git-hash-plugin": true,
     "reg-notify-github-plugin": {
-      "clientId": "MzQ0tDAzNzIz0S9KTdctKC0oSC1JTS3STUnNzdc3MTA0gkiUZVYBAA=="
+      "clientId": "MzQ1NzY3s7Q01i9KTdctKC0oSC1JTS3STUnNzdc3MTMwNDTVz07NS0tJLQMA"
     },
     "reg-publish-s3-plugin": {
-      "bucketName": "reg-publish-bucket-2c260973-434b-4cc9-8e17-a14e72fd062c"
+      "bucketName": "static",
+      "customDomain": "2e3d8b4b.ngrok.io",
+      "sdkOptions": {
+        "endpoint": "https://6651ed58.ngrok.io",
+        "s3ForcePathStyle": true,
+        "signatureVersion": "v4"
+      }
     }
   }
 }
