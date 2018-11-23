@@ -7,7 +7,7 @@ services:
     env_file:
       - .env
     volumes:
-      - /tmp/miniodata:/data
+      - ./.tmp_data:/data
     command: ['server', '/data']
   web:
     image: nginx
